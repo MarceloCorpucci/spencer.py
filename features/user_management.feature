@@ -4,4 +4,3 @@ Feature: User Management
   This feature is intended to detail the integration required between the third party authentication lib
   and this platform
 
-  
