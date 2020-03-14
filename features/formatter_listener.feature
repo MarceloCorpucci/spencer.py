@@ -1,9 +1,9 @@
-Feature: Spencer Listener
+Feature: Spencer custom formatter listener
   The Listener is in charge of listen test scenario execution and pass a Model of that execution to the
   Storage.
-  The listener can be a custom formatter which takes the execution output and pass it to the storage.
+  One listener implementation can be a custom formatter which takes the execution output and pass it to the storage.
   An easier implementation is to create a listener which can be able to check the existence of a json file
-  in certain folder, as a result of json pretty formater
+  in certain folder, as a result of json pretty formater (less preferable).
 
   Refer to the following documentation
   https://behave.readthedocs.io/en/latest/formatters.html
