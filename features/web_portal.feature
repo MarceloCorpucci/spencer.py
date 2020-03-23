@@ -3,6 +3,12 @@ Feature: Web Portal
   previous executions. On the other hand it allows users to add new scenarios to be implemented later.
   Users can log into Web Portal using their GitHub accounts.
 
+  Scenario: User selects a project
+    * Once logged in, the user can choose the project we wants to view
+    * TBD how to search it.
+    * TBD favorite project?
+    * TBD Github organizations?
+
   Scenario: User creates a view
     * Based on multiple projects, a user can choose what sceanrio he want from each of those.
     * The view should be stored in Storage.
